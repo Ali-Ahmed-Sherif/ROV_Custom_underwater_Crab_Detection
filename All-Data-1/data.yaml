@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['European_Green_Crab']
+
+roboflow:
+  workspace: a-et9pk
+  project: all-data-okglu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/a-et9pk/all-data-okglu/dataset/1
