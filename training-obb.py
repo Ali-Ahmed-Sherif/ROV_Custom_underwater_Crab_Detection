@@ -2,8 +2,8 @@ from roboflow import Roboflow
 from ultralytics import YOLO
 
 # 1. Download your dataset via Roboflow API
-rf = Roboflow(api_key="aTxY4OaEihbcH5Ku7JS7")
-project = rf.workspace("a-et9pk").project("all-data-okglu")
+rf = Roboflow(api_key="")
+project = rf.workspace("").project("")
 version = project.version(1)
 dataset = version.download("yolo26")
 
